@@ -1,0 +1,215 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family= IBM+Plex+Sans:wght@400;700 & display =swap');
+
+
+:root {
+
+    --cerise-color:#db2e8c;
+    --carnation-color:#ff97d3;
+    --pickled-bluewood:#334758;
+    --white-color: #ffffff;
+    --cornflower-color:#264fec;
+}
+
+ /* reset baásico */
+
+* {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+
+body {
+    background-color:var(--pickled-bluewood) ;
+    font-family: 'IBM Plex Sans', sem serifa;
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    background-color: var(--white-color);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.div-logo {
+    height: 50px;
+    width: 250px;
+    margin-top: 20px;
+    margin-right: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-titulo {
+    height: 50px;
+    width: 250px;
+    margin-right: 300px;
+    margin-top: 10px;
+  
+}
+
+
+.div-pesquisa {
+    height: 40px;
+    width: 200px;
+    background-color: #db2e8c;
+    border-radius: 4px;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+ 
+}
+
+
+.titulo-principal {
+    color: #264fec;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+
+.input-pesquisa {
+    background-color: transparent;
+    border: none;
+    padding: 4px;
+    margin-bottom: 10px;
+    
+
+}
+
+.lupa {
+    margin-bottom: 10px;
+}
+
+::placeholder {
+    color: var(--carnation-color);
+
+}
+
+.cards {
+    background-color:var(--white-color);
+    width: 265px;
+    height: 400px;
+    margin: 20px 10px 0px 10px;
+    border-radius: 3px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 860px;
+    margin-bottom: 80px;   
+}
+
+.p-cards {
+    margin-top: 10px;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+
+.button-cards {
+    margin-top: auto;
+    padding: 8px;
+    color: #264fec;
+    border: 1px solid #264fec;
+    background-color: #ffffff;
+    border-radius: 2px;
+    align-self: flex-end;
+    margin-right: 120px; 
+}
+
+
+footer {
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 50px;  
+}  
+
+.container-footer {
+    width: 860px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-footer {
+ height: 80px;
+ width: 150px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+
+.div-direita {
+    height: 80px;
+    width: 230px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.div-canto {
+    width: 150px;
+    height: 70px;
+    background-color:var(--white-color);
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logos {
+    width: 70px;
+    align-self: center;
+}
+
+.logo-desenvolve {
+    width: 150px;
+    align-self: center;
+}
+
+.links-footer {
+    font-size: 12px;
+    width: 120px;
+    height: 35px;
+    align-items: center;
+    display: flex;
+}
+
+.redes-footer {
+    font-size: 12px;
+    width: 120px;
+    height: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
